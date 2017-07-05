@@ -48,18 +48,40 @@ ul{
      list-style-type: none;
 }
 .dom_list{
-margin-left: 80px;
+    margin-left: 60px;
+    font-family: helvetica;
 }
 .pizz_list{
     margin-left: 35px;
+    font-family: helvetica;
 }
 .kfc_list{
     margin-left: 55px;
+    font-family: helvetica;
 }
 .mc_list{
     padding-top: 15px;
     margin-left: 20px;
+    font-family: helvetica;
 }
 .show {
     display: block;
+}
+#dom{
+    margin-top: 5px;
+    margin-left: 9%;
+    position: absolute;
+}
+#piz{
+    position: absolute;
+    margin-left: 8%;
+}
+#kfci{
+    position: absolute;
+    margin-left: 9%;
+}
+#mci{
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 10px;
 }
