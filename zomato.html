@@ -19,7 +19,7 @@
     <img src="KFC_logo.png" id="kfci" height="325" width="320">
 </div>
 <div id="mc">
-    <img src="mcd.png" id="mci" height="325" width="300">
+    <img src="mcd.png" id="mci" height="310" width="300">
 </div>
 </div>
 <div class="dom_list">
@@ -56,6 +56,11 @@
     </div>
 <script src="jquery-2.2.0.js"></script>
 <script>
+$('#dom').on('click',function(){$(".dom_list li").toggleClass("show");})
+$('#piz').on('click',function(){$(".pizz_list li").toggleClass("show");})
+$('#kfci').on('click',function(){$(".kfc_list li").toggleClass("show");})
+$('#mci').on('click',function(){$(".mc_list li").toggleClass("show");})
+
 
 </script>
 </body>
