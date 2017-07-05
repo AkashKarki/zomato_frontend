@@ -18,7 +18,7 @@
         <li><input class ="dom_check" type="checkbox" value="410"> Cheese & Tomato.<br><li>
         <li><input class ="dom_check" type="checkbox" value="475"> Cheese & Bbq Chicken.<br><li>
         <li><input class ="dom_check" type="checkbox" value="575"> Chicken Golden Delight.<br><li>
-        <li><button id="dom_order">checkout</button><br><li>
+        <li><button id="dom_order" onclick="conform_dom()">checkout</button><br><li>
     <ul>
     </div>
 </div>
@@ -27,11 +27,11 @@
     <button id="piz">show menu</button>
     <div class="pizz_list">
     <ul >
-        <li><input class ="dom_check" type="checkbox" value="215"> Paneer & Capsicum.<br><li>
-        <li><input class ="dom_check" type="checkbox" value="310"> Chola & Onion.<br><li>
-        <li><input class ="dom_check" type="checkbox" value="575"> Chicken Hot N Spicy.<br><li>
-        <li><input class ="dom_check" type="checkbox" value="475"> Chicken keema & Corn.<br><li>
-        <li><button id="piz_order">checkout</button><br><li>
+        <li><input class ="piz_check" type="checkbox" value="215"> Paneer & Capsicum.<br><li>
+        <li><input class ="piz_check" type="checkbox" value="310"> Chola & Onion.<br><li>
+        <li><input class ="piz_check" type="checkbox" value="575"> Chicken Hot N Spicy.<br><li>
+        <li><input class ="piz_check" type="checkbox" value="475"> Chicken keema & Corn.<br><li>
+        <li><button id="piz_order" onclick="conform_piz()">checkout</button><br><li>
     <ul>
     </div>
     </div>
@@ -40,11 +40,11 @@
     <button id="kfci">show menu</button>
     <div class="kfc_list">
     <ul >
-        <li><input class ="dom_check" type="checkbox" value="299"> Chick & Share.<br><li>
-        <li><input class ="dom_check" type="checkbox" value="369"> Chick & Share Bucket.<br><li>
-        <li><input class ="dom_check" type="checkbox" value="400"> 10 pcs Hot & Crispy.<br><li>
-        <li><input class ="dom_check" type="checkbox" value="675">8 Pc Hot & Crispy.<br><li>
-        <li><button id="kfc_order">checkout</button><br><li>
+        <li><input class ="kfc_check" type="checkbox" value="299"> Chick & Share.<br><li>
+        <li><input class ="kfc_check" type="checkbox" value="369"> Chick & Share Bucket.<br><li>
+        <li><input class ="kfc_check" type="checkbox" value="400"> 10 pcs Hot & Crispy.<br><li>
+        <li><input class ="kfc_check" type="checkbox" value="675">8 Pc Hot & Crispy.<br><li>
+        <li><button id="kfc_order" onclick="conform_kfc()">checkout</button><br><li>
     <ul>
     </div>
 </div>
@@ -53,11 +53,11 @@
     <button id="mci">show menu</button>
     <div class="mc_list">
     <ul >
-        <li><input class ="dom_check" type="checkbox" value="375">Maharaja Sharing Pack.<br><li>
-        <li><input class ="dom_check" type="checkbox" value="300">Spicy Sharing Pack.<br><li>
-        <li><input class ="dom_check" type="checkbox" value="230">Value Pack For 2.<br><li>
-        <li><input class ="dom_check" type="checkbox" value="410">Classics Pack For 3.<br><li>
-        <li><button id="mcd_order">checkout</button><br><li>
+        <li><input class ="mcd_check" type="checkbox" value="375">Maharaja Sharing Pack.<br><li>
+        <li><input class ="mcd_check" type="checkbox" value="300">Spicy Sharing Pack.<br><li>
+        <li><input class ="mcd_check" type="checkbox" value="230">Value Pack For 2.<br><li>
+        <li><input class ="mcd_check" type="checkbox" value="410">Classics Pack For 3.<br><li>
+        <li><button id="mcd_order" onclick="conform_mcd()">checkout</button><br><li>
     <ul>
     </div>
 </div>
@@ -68,8 +68,42 @@ $('#dom').on('click',function(){$(".dom_list li").toggleClass("show");})
 $('#piz').on('click',function(){$(".pizz_list li").toggleClass("show");})
 $('#kfci').on('click',function(){$(".kfc_list li").toggleClass("show");})
 $('#mci').on('click',function(){$(".mc_list li").toggleClass("show");})
-
-
+function conform_dom(){
+    if($(".dom_check").is(':checked'))
+    {
+    alert("thanks for ordering");
+  }
+  else{
+   alert("select at least one item");
+  }
+}
+function conform_piz(){
+    if($(".piz_check").is(':checked'))
+    {
+    alert("thanks for ordering");
+  }
+  else{
+   alert("select at least one item");
+  }
+}
+function conform_kfc(){
+    if($(".kfc_check").is(':checked'))
+    {
+    alert("thanks for ordering");
+  }
+  else{
+   alert("select at least one item");
+  }
+}
+function conform_mcd(){
+if($(".mcd_check").is(':checked'))
+    {
+    alert("thanks for ordering.");
+  }
+  else{
+   alert("select at least one item.");
+  }
+}
 </script>
 </body>
 </html>
