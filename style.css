@@ -1,4 +1,3 @@
-
 body{
     margin: 0;
     background-image:url("back.jpg") ;
@@ -14,29 +13,21 @@ h1{
 #dominos{
     height: 325px;
     width: 320px;
-    background-size: cover;
-    background-image: url("domino.png");
     margin-left:15px; 
 }
 #pizza_hut{
     height: 325px;
     width: 320px;
-    background-size: cover;
-    background-image: url("pizza hut.png");
     margin-left:17px; 
 }
 #KFC{
     height: 325px;
     width: 320px;
-    background-size: cover;
-    background-image: url("KFC_logo.png");
     margin-left:17px; 
 }
 #MC{
     height: 325px;
-    width: 320px;
-    background-size: cover;
-    background-image: url("mcd.png");
+    width: 300px;
     margin-left:20px; 
 }
 div{
@@ -46,4 +37,18 @@ div{
 }
 .main{
     padding-top: 100px;
+}
+li{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+ul{
+     list-style-type: none;
+}
+.dom_list{
+margin-left: 80px;
+}
+.pizz_list{
+    margin-left: 35px;
 }
