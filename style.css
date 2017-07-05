@@ -1,34 +1,42 @@
-h1{
-    text-align: center;
-    height: 60%;
-    width: 100%;
-    background-color: red;
-}
+
 body{
     margin: 0;
+    background-image:url("back.jpg") ;
+    background-size:cover;
+}
+h1{
+    font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #989898;
+  margin: 0 auto;
 }
 #dominos{
-    height: 240px;
+    height: 325px;
     width: 320px;
-    background-color: blue;
+    background-size: cover;
+    background-image: url("domino.png");
     margin-left:15px; 
 }
 #pizza_hut{
-    height: 240px;
+    height: 325px;
     width: 320px;
-    background-color: black;
+    background-size: cover;
+    background-image: url("pizza hut.png");
     margin-left:17px; 
 }
 #KFC{
-    height: 240px;
+    height: 325px;
     width: 320px;
-    background-color: red;
+    background-size: cover;
+    background-image: url("KFC_logo.png");
     margin-left:17px; 
 }
 #MC{
-    height: 240px;
+    height: 325px;
     width: 320px;
-    background-color: green;
+    background-size: cover;
+    background-image: url("mcd.png");
     margin-left:20px; 
 }
 div{
@@ -37,5 +45,5 @@ div{
     
 }
 .main{
-    text-align:center;
+    padding-top: 100px;
 }
