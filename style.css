@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    height: 60%;
+    width: 100%;
+    background-color: red;
+}
+body{
+    margin: 0;
+}
+#dominos{
+    height: 240px;
+    width: 320px;
+    background-color: blue;
+    margin-left:15px; 
+}
+#pizza_hut{
+    height: 240px;
+    width: 320px;
+    background-color: black;
+    margin-left:17px; 
+}
+#KFC{
+    height: 240px;
+    width: 320px;
+    background-color: red;
+    margin-left:17px; 
+}
+#MC{
+    height: 240px;
+    width: 320px;
+    background-color: green;
+    margin-left:20px; 
+}
+div{
+    display: inline-block;
+    float: left;
+    
+}
+.main{
+    text-align:center;
+}
