@@ -46,13 +46,14 @@ li{
 }
 ul{
      list-style-type: none;
+     margin-top: 40px;
 }
 .dom_list{
     margin-left: 60px;
     font-family: helvetica;
 }
 .pizz_list{
-    margin-left: 35px;
+    margin-left: 53px;
     font-family: helvetica;
 }
 .kfc_list{
@@ -61,7 +62,7 @@ ul{
 }
 .mc_list{
     padding-top: 15px;
-    margin-left: 20px;
+    margin-left: 38px;
     font-family: helvetica;
 }
 .show {
@@ -69,7 +70,7 @@ ul{
 }
 #dom{
     margin-top: 5px;
-    margin-left: 9%;
+    margin-left: 8%;
     position: absolute;
 }
 #piz{
@@ -78,10 +79,20 @@ ul{
 }
 #kfci{
     position: absolute;
-    margin-left: 9%;
+    margin-left: 8%;
 }
 #mci{
     position: absolute;
     margin-left: 7%;
     margin-top: 10px;
+}
+button {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 13px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
